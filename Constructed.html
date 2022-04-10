@@ -48,7 +48,15 @@ font-family: font
             <br> 
             Download here 
             <br>
-            <iframe src="https://itch.io/embed/1421343?bg_color=0a6400&amp;fg_color=3a3b3e&amp;link_color=5b7cfa&amp;border_color=2c9627" width="552" height="167" frameborder="0"><a href="https://jamchuckstudios.itch.io/constructed">Constructed(Prototype) by JamchuckStudios</a></iframe>
+            <button id="buy_button">Buy My Game!</button>
+            <script type="text/javascript" src="https://static.itch.io/api.js"></script>
+<script type="text/javascript">
+  Itch.attachBuyButton(document.getElementById("buy_button"), {
+    // replace the following with the correct information about your game
+    user: "jamchuckstudios",
+    game: "constructed"
+  });
+</script>
               </a>
               <br>
               Source code here: 
